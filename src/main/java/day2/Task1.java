@@ -13,7 +13,7 @@ public class Task1 {
             System.out.println("Среднеэтажный дом");
         }else if(floors >= 9){
             System.out.println("Многоэтажный дом");
-        }else if(floors <= 0){
+        }else {
             System.out.println("Ошибка ввода");
         }
     }
